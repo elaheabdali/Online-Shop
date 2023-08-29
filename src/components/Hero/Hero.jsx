@@ -1,36 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='text-gray-600 body-font mt-20'>
-      <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
-        <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-          <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
-            Before they sold out
-            <br className='hidden lg:inline-block' /> gluten
-          </h1>
-          <p className='mb-8 leading-relaxed'>
-            Copper mug try-hard pitchfork pour-over heirloom air plant
-            cold-pressed tacos poke beard tote bag. Heirloom echo park tote bag
-            selvage hot chicken authentic tumeric truffaut hexagon try-hard
-            chambray.
-          </p>
-          <div className='flex justify-center'>
-            <button className='inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg'>
-              Button
-            </button>
-          </div>
+    <div class='mx-auto h-auto bg-no-repeat bg-cover bg-center'>
+        <img
+          className='object-cover object-center'
+          alt='hero'
+          src='https://plus.unsplash.com/premium_photo-1661774910035-05257f7d73a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80'
+        />
         </div>
-        <div className='lg:max-w-lg lg:w-full md:w-1/2'>
-          <img
-            className='object-cover object-center rounded md:w-1/2 w-5/6'
-            alt='hero'
-            src='https://cdn.pixabay.com/photo/2017/03/13/17/26/ecommerce-2140603_640.jpg'
-          />
-        </div>
-      </div>
-    </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
