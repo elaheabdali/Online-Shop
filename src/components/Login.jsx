@@ -14,9 +14,7 @@ const SignIn = () => {
                 <img className='dark:hidden' src={LogoDark} alt='Logo' />
               </Link>
 
-              <p className='2xl:px-20'>
-                
-              </p>
+              <p className='2xl:px-20'></p>
 
               <span className='mt-15 inline-block'>
                 <svg
@@ -265,7 +263,7 @@ const SignIn = () => {
                 <div className='mt-6 text-center'>
                   <p>
                     Don’t have any account?
-                    <Link to='/auth/register' className='text-primary'>
+                    <Link to='/register' className='text-primary'>
                       Sign Up
                     </Link>
                   </p>
